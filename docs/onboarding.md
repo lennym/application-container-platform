@@ -18,6 +18,7 @@ gpg -o <username>.gpg --recipient <email> --encrypt uidfile
 This token can now be sent to them.
 
 ###Automation tip
+(gpg happily ingests the pub key embedded in a message as long as the pgp block is intact)
 
 ```
 #!/bin/bash
