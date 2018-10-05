@@ -10,6 +10,8 @@
 
 4. Once your token has been created, you will be able to find it in the [Connected Identities][connected identities] section. You will need to expand the **Kubernetes** identity and show your full token by clicking the eye icon next to it.
 
+5. Click the "Set up Kube config" button next to your token for instructions to set up your local `kubectl` to use your token.
+
 ## Project Admins (Creating a user token)
 
 1. Log into the [Platform Hub][platform hub link].
